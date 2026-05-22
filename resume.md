@@ -46,7 +46,7 @@ Prompt Engineering、LLM Integration
 **外溢保單現代化**
 配合核心系統從 AS400 遷移至 Java 平台，負責 Java 端功能開發與流程整合。
 
-- 主責外溢主檔同步、折扣計算開發，並參與部分折扣證明作業
+- 負責外溢主檔同步、折扣計算開發，並參與部分折扣證明作業
 - 開發前與 SA 協調實作內容（API 規格、DB 命名、程式風格），減少與原專案(Java平台)的差異性
 - 整測階段與 AS400 核心系統使用 queue 串接，撰寫明確的規格與說明，並實作本地接收方法以加速整測時程
 - 為複雜的流程建立多情境測試，並建立 mock server 模擬尚未就緒的外部系統（防火牆、未完成系統、特殊情境資料），使開發不受串接進度影響
@@ -56,7 +56,7 @@ Prompt Engineering、LLM Integration
 ---
 
 **AML 審查系統升級**
-負責主要的程式碼轉換與架構調整，將既有系統從 Java 8 + Vue 2 升級至 Spring Boot 3 + Vue 3。
+因應資安弱點升級系統Spring Boot 2 => 3  + Vue 2 => 3
 
 - 進入陌生系統後，自行閱讀程式碼與公司客製 jar / starter，
   理解業務邏輯後再規劃升級方向
@@ -66,7 +66,7 @@ Prompt Engineering、LLM Integration
 - 將 Vue 元件全面重構為 Composition API，補充 Cypress E2E 測試覆蓋
 - 協助負責人追查並解決部署環境問題，讓升級順利上線
 
-*使用技術：Java 8 → Spring Boot 3、Vue 2 → Vue 3、Cypress*
+*使用技術：Spring Boot 2 → Spring Boot 3、Vue 2 → Vue 3、Cypress*
 
 ---
 
