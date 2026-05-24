@@ -56,17 +56,14 @@ Prompt Engineering、LLM Integration
 ---
 
 **AML 審查系統升級**
-因應資安弱點升級系統Spring Boot 2 => 3  + Vue 2 => 3
+因應資安政策升級系統 Spring Boot + Vue 之專案
 
-- 進入陌生系統後，自行閱讀程式碼與公司客製 jar / starter，
-  理解業務邏輯後再規劃升級方向
-- 訂定程式碼轉換規範與 AI 輸出範例，讓 GitHub Copilot 輔助加速遷移，
-  並確保產出符合 Spring 框架與公司規範
-- 評估並篩選符合資安標準的套件版本，避免升級過程引入安全漏洞
-- 將 Vue 元件全面重構為 Composition API，補充 Cypress E2E 測試覆蓋
-- 協助負責人追查並解決部署環境問題，讓升級順利上線
+- 協同負責 Spring Boot 2 → 3，獨立負責 Vue 2 → Vue 3 之升級
+- 將單一登入介接流程從公司客製 starter 遷至 Spring Security 原生實作，解決 starter 已不再維護問題
+- 將 Vue 全面改寫為 Composition API，淘汰舊版為了寫法簡潔而引入、但 Vue 3 已不再支援的第三方 plugins，降低長期維護負擔
+- 升級前以 Cypress E2E 補齊主流程與特殊案件的測試覆蓋，作為升級後行為一致性的驗證
 
-*使用技術：Spring Boot 2 → Spring Boot 3、Vue 2 → Vue 3、Cypress*
+*使用技術：Spring Boot 2 → Spring Boot 3、Vue 2 → Vue 3*
 
 ---
 
