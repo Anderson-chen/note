@@ -5,13 +5,15 @@
 
 ## 關於我
 
-全端工程師，金融保險產業近 5 年，主力 Java / Spring Boot 與 Vue.js。
+**全端工程師｜5 年｜Java 17 + Spring Boot 3.x + Vue 3 + Nuxt 4 + TypeScript**
 
-- **進陌生系統先釐清脈絡**：曾在毫無文件的情況下，靠需求訪談、觀察操作與交叉比對舊程式碼釐清現行功能，據以完成全端重寫。
-- **AI 輔助開發與驗證**：用 Claude Code、GitHub Copilot 輔助實作，但做技術決策前一定多方問答、查證，不照單全收 AI 的輸出。
-- **主動補規格盲點**：開發中發現派案策略的漏洞，主動提出解法並實作補強，把規格未涵蓋的例外情境補上。
-- **重視長期可維護性**：主動把已不再維護的客製 starter 遷回框架原生實作、淘汰新版框架不再支援的第三方套件，降低後續維護負擔。
-- **用測試守住改動品質**：為複雜流程建立多情境測試與 mock server、升級前用 E2E 補齊測試覆蓋，作為行為一致性的驗證依據。
+後端主力 Spring Boot 3.x（Spring Security / Spring Data JPA / Hibernate），前端以 Vue 3 Composition API + Pinia + Nuxt 4 + TypeScript 開發 SPA。具備金融保險產業背景，習慣在高合規、文件不足的環境中釐清脈絡並補上規格盲點。
+
+## 經歷總結
+
+- **累積多次系統翻新與框架升級經驗**：靠需求訪談、操作觀察、舊程式碼比對重建現行邏輯，完成 Spring Boot / Vue 等框架 major version 升級。
+- **帶 2–3 人小組交付專案**：負責進度把控與技術選型，推動模組化架構落地。
+- **AI 輔助開發實戰**：日常以 GitHub Copilot、Claude Code 加速開發；深入鑽研 Claude Code 的 Skills 與 Hooks 機制，自行撰寫並持續優化自家工作流。
 
 
 ---
@@ -110,5 +112,7 @@ Prompt Engineering、LLM Integration
 ---
 
 ## 學歷
+
+## 自我介紹
 
 [略]
